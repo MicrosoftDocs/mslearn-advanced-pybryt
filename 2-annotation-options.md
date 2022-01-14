@@ -199,7 +199,6 @@ With a reference constructed as above, we can give students a chance to check th
 
 
 ```python
->>> # TODO: uncomment once group is implemented (#146)
 >>> with pybryt.check(assignment_ref, group="mean"):
 ...     for test_list in test_lists:
 ...         mean(test_list)
